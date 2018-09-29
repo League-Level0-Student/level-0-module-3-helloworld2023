@@ -112,19 +112,79 @@ public class Horoscope {
 					+ " a say and to be heard.");
 		} 
 		else if (sign.equalsIgnoreCase("scorpio")) {
-			JOptionPane.showMessageDialog(null, message);
+			JOptionPane.showMessageDialog(null, "Upside: Scorpio exhibit extreme self-control in many areas,"
+					+ " and as a result expect that of those around them. They are disciplined, protective "
+					+ "and are very interested in others. They give of themselves but do expect the same in "
+					+ "return. Scorpio males and females both need to be the leaders, and excel at problem "
+					+ "solving and troubleshooting projects and situations.\n" + 
+					"\n" + 
+					"Downside: Scorpio invented the term ‘vendetta’. Once a Scorpio is crossed, they don’t "
+					+ "forget it. Female Scorpio are worse about this than they others, often going decades"
+					+ " without making amends with friends and family. Scorpio also tend to be pessimistic,"
+					+ " often seeing threats where there aren’t any, which can make them suspicious, stubborn "
+					+ "and paranoid without cause.");
 		}
 		else if (sign.equalsIgnoreCase("sagittarius")) {
-			
+			JOptionPane.showMessageDialog(null, "Upside: Sagittarians are highly intelligent and love to be "
+					+ "around intelligent people. They enjoy learning new things, traveling to new places, and "
+					+ "experiencing unique adventures. Creativity is at the core of who they are and Sagittarians"
+					+ " are often creating and recreating their living situations, work situations, and human "
+					+ "relationships. Sagittarians are spiritually inclined and are among the types that would travel"
+					+ " to the Himalayas to commune with the monks, or take the book, Eat, Pray, Love and go to each "
+					+ "spot mentioned in its pages to seek their own enlightenment.\n" + 
+					"\n" + 
+					"Downside: Confining a Sagittarian and not allowing for ample space to roam will make this sign "
+					+ "rude, and uncooperative. Sagittarians often come up with unrealistic, big plans, but lack the "
+					+ "ability to follow through with them. This isn’t because they aren’t capable, but rather they can "
+					+ "become sidetracked chasing another avenue of adventure or thought. Sagittarians are about the bigger "
+					+ "picture and details often bog them down and bore them.\n" + 
+					"\n" + 
+					"");
 		} 
 		else if (sign.equalsIgnoreCase("capricorn")) {
-
+			JOptionPane.showMessageDialog(null, "Upside: Capricorns are the superheroes when It comes to making realistic,"
+					+ " logical decisions. Their ability to cut through the red tape and see the bottom line is what makes "
+					+ "them a real asset to any relationship or occupation where teamwork is valued. Capricorn are family oriented"
+					+ ", but will keep their distance if the family is perceived to be violent, harmful, or unfulfilling. Capricorn"
+					+ " have a dry sense of humor and their sarcastic wit is only appreciated by those who find humor everywhere. "
+					+ "Highly intellectual, good with numbers and analysis, this sign is not often loud, but they are most definitely "
+					+ "the muscle and the power behind the very successful machine.\n" + 
+					"\n" + 
+					"Downside: Because they are so dedicated to the big picture and the minute details, they can seem dull to others,"
+					+ " who don’t understand the active internal nature of the Capricorn. While seeming almost emotionless on the surface,"
+					+ " the Capricorn’s mind is always running on overdrive. They can often seem selfish and stingy, keeping information"
+					+ " to themselves, or strategically withholding information for their own gain. Often they can be the less imaginative"
+					+ " of the signs and refuse to face the facts about a situation because it would signal that they were wrong about "
+					+ "something (which they hate).");
 		}
 		else if (sign.equalsIgnoreCase("aquarius")) {
-			
+			JOptionPane.showMessageDialog(null, "Upside: Aquarians are among the friendliest of the signs, making friends everywhere. "
+					+ "They are often chosen among co-workers and family for special awards and honors because of their ability to network."
+					+ " Highly intelligent they are energetic and talented, often using their abilities to help others. Despite their "
+					+ "extensive people skills, they often crave alone time to reflect and think about things. Meditation is recommended "
+					+ "for this sign as it helps to maintain that sense of alone time, while at the same time a feeling of connectedness with"
+					+ " something greater than themselves.\n" + 
+					"\n" + 
+					"Downside: If this sign does not have alone time and time to do much desired reflection, they become dour, emotionless,"
+					+ " and even are prone to depressive interludes. They can become highly resentful if they believe that their voice is not"
+					+ " being truly heard or valued. Because they do self-reflect, this sign can become quite eccentric in some of the hobbies"
+					+ " that they pursue, or activities they enjoy.");
 		} 
 		else if (sign.equalsIgnoreCase("pisces")) {
-
+			JOptionPane.showMessageDialog(null,"Upside: Pisces are empathetic people, often feeling badly for someone whose life is not going"
+					+ " well. They feel the need to reach out to those who are less fortunate and will often find themselves involved in drama"
+					+ " that they hadn’t intended. They are kind, caring individuals who feel everything deeply, even though you would not know"
+					+ " it on the surface. They can be creative and imaginative when they believe that they have support to make those leaps.\n" + 
+					"\n" + 
+					"Downside: Because they feel everything so intensely, this sign can often become a clinical worrier. They will worry that they"
+					+ " are not worrying. This tendency to worry also leads to indecision on their part, fearing that if they make a decision that "
+					+ "others disagree with that they will have upset someone. Pisces don’t like to hurt people’s feelings and as such become "
+					+ "conflicted when they have to make decisions. They do not do well as leaders, but are impressive support personnel. Sometimes"
+					+ " the have a lack of follow through due to this indecisiveness and require a gentle nudge from other signs to complete tasks "
+					+ "on time.");
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "That's not a star sign!");
 		}
 	}
 }
