@@ -37,9 +37,11 @@ public class FizzBuzz {
 			if(j%5==0) {
 				System.out.println("buzz");
 			}
+			if(j%3==0 && j%5==0) {
+				System.out.println("fizzbuzz");
+			}
 			System.out.println(j);
 		}
-		
 		
 	}
 }
