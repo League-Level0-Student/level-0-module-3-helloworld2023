@@ -3,6 +3,7 @@ int x2=400;
 void setup(){
 size(500,500);
 }
+
 void draw(){
   background(216,214,214);
   noFill();
